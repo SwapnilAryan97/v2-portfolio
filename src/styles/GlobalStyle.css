@@ -16,3 +16,20 @@ h6 {
   display: flex; /* This makes the children (Intro and About) display in a row */
   flex-direction: column; /* This makes the children stack vertically */
 }
+
+.intro-page {
+  justify-content: center;
+}
+
+.skills-page,
+.about-page,
+.contact-page,
+.experience-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+}
