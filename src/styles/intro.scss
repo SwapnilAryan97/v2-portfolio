@@ -1,0 +1,38 @@
+.intro-heading {
+  font-size: 3.2rem;
+  // color: var(--green);
+  color: white;
+  margin: 0 30px 0 30px;
+  padding: 0 30px 0 30px;
+  text-align: center;
+}
+
+.intro-subheading {
+  font-size: 1.5rem;
+}
+
+.intro-page {
+  // background-color: white;
+  // position: relative;
+  background-color: white;
+  background-image: url(../assets/images/boat-in-sea.jpg);
+  background-size: cover;
+  z-index: -10;
+  backdrop-filter: blur(10px); /* Apply blur */
+  opacity: 0.9;
+
+  // &::after {
+  //   position: relative;
+  //   background-color: white;
+  //   opacity: 0.8;
+  //   z-index: 1;
+  // }
+}
+
+// .blur-background {
+//   position: relative;
+//   background-color: white;
+//   // opacity: 0.8;
+//   z-index: 1;
+
+// }

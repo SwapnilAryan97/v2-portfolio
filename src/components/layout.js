@@ -5,7 +5,7 @@ import Skills from "./skills";
 import Experience from "./experience";
 import Contact from "./contact";
 
-import "../styles/GlobalStyle.css";
+import "../styles/GlobalStyle.scss";
 
 const Layout = () => {
   return (
