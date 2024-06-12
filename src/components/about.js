@@ -4,7 +4,8 @@ const About = () => {
   return (
     <div className="page-container about-page">
       <span className="blur-background"></span>
-      <h2 className="section-heading">Hey! I'm Swapnil.</h2>
+      <h2 className="section-heading">Hey!</h2>
+      <h2 className="section-heading">I'm Swapnil.</h2>
       <h3 className="section-subheading">
         I'm a Software Engineer who loves combining well-crafted code with
         beautiful design, paying close attention to detail.

@@ -1,6 +1,7 @@
 :root {
   // --green: #64ffda;
   --green: #19fbc6;
+  --light-green: #b6f9e9dd;
   --lightest-navy: #172a45;
   --navy: #0a192f;
   --light-navy: #303c55;
@@ -57,11 +58,27 @@ h6 {
   flex-direction: column;
   justify-content: left;
   text-align: left;
-  padding: 50px 80px 30px 30px;
+  padding: 50px 30px 30px 30px;
   background-size: cover;
 }
 
 p {
   font-size: 1.3em;
   color: var(--lightest-slate);
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.skill-bubble {
+  display: inline-block;
+  margin: 5px 2px 5px 2px;
+  padding: 10px 12px;
+  border-radius: 20px;
+  border-width: 1px;
+  background-color: var(--dark-grey);
+  color: var(--green);
+  font-size: 0.9em;
 }
