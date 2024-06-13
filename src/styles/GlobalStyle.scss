@@ -16,6 +16,7 @@
   --dark: #000;
   --light: #fff;
   --dark-grey: #32313148;
+  --grey: #242424ac;
 }
 
 .divider {
@@ -32,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0 0 10px 0;
+  margin: 0 0 0 0;
   font-weight: 600;
   color: var(--slate);
   line-height: 1.1;
@@ -78,7 +79,7 @@ ul {
   padding: 10px 12px;
   border-radius: 20px;
   border-width: 1px;
-  background-color: var(--dark-grey);
+  background-color: var(--grey);
   color: var(--green);
   font-size: 0.9em;
 }

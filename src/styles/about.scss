@@ -7,9 +7,14 @@
 .section-subheading {
   color: var(--light-slate);
   font-weight: 400;
-
 }
 
 .about-page {
   background-color: var(--dark-grey);
+}
+
+.page-container {
+  p {
+    font-size: 1em;
+  }
 }
