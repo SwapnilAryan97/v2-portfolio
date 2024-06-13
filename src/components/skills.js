@@ -3,14 +3,14 @@ import getSkills from "./helper/getSkills";
 import "../styles/skills.scss";
 
 const Skills = () => {
-  const [skills, setSkills] = useState({ development: [], design: [] });
+  const [skills, setSkills] = useState([]);
   const filePath = "data/skills.yml";
 
   useEffect(() => {
     const fetchSkills = async () => {
       const skillData = await getSkills(filePath);
       if (skillData) {
-        setSkills(skillData);
+        setSkills(skillData.Categories);
       }
     };
 
@@ -20,22 +20,18 @@ const Skills = () => {
   return (
     <div className="page-container skills-page">
       <h2 className="section-heading">Skills</h2>
-      <h3 className="sub-title">Development</h3>
-      <ul>
-        {skills.development.map((skill, index) => (
-          <li key={index} className="skill-bubble">
-            {skill.item}
-          </li>
-        ))}
-      </ul>
-      <h3 className="sub-title">Design</h3>
-      <ul>
-        {skills.design.map((skill, index) => (
-          <li key={index} className="skill-bubble">
-            {skill.item}
-          </li>
-        ))}
-      </ul>
+      {skills.map((category, index) => (
+        <div key={index} className="skills-category">
+          <h3 className="sub-title">{category.name}</h3>
+          <ul>
+            {category.items.map((item, itemIndex) => (
+              <li key={itemIndex} className="skill-bubble">
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
     </div>
   );
 };

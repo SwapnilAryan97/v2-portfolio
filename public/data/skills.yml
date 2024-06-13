@@ -1,17 +1,40 @@
-development:
-  - item: JavaScript
-  - item: HTML5
-  - item: CSS3
-  - item: Jekyll
-  - item: Python
-  - item: React
-  - item: Backbone
-  - item: Node.js
-  - item: Angular
+Categories:
+  - name: Languages And Frameworks
+    items:
+      - Java
+      - Python
+      - JavaScript
+      - TypeScript
+      - SQL
+      - PySpark
+      - Springboot
+      - Flask
+      - Coral
 
-design:
-  - item: sketch
-  - item: adobe-photoshop
-  - item: adobe-indesign
-  - item: adobe-illustrator
-  - item: invision
+  - name: AWS Services
+    items:
+      - EC2
+      - EMR
+      - S3
+      - RDS
+      - DynamoDB
+      - Lambda
+      - CloudFormation
+      - CloudWatch
+      # - Bedrock
+      - IAM Roles
+      - CloudTrail
+      - Step Functions
+
+  - name: TechnicalSkills
+    items:
+      - Git
+      - NoSQL
+      - CI/CD
+      - Troubleshooting
+      - Linux
+      - API
+      - Agile
+      - Docker
+      # - Scrum
+      - Hydra
