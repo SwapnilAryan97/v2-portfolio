@@ -13,7 +13,7 @@ const About = () => {
       </h3>
       <span className="divider"></span>
       <span className="profile-pic-container">
-        <img className="profile-pic" src={profilePic} />
+        <img className="profile-pic" src={profilePic} alt="Profile Pic" />
       </span>
       <p>
         I enjoy discovering innovative methods to develop seamless user
