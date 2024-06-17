@@ -15,8 +15,9 @@
 }
 
 .page-container {
-  p {
-    font-size: 1em;
+  @media (min-width: 1000px) {
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 
@@ -37,4 +38,22 @@
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 1000px) {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+
+    p {
+      margin-right: auto;
+      margin-left: 20px;
+      max-width: 650px;
+    }
+  }
 }
