@@ -14,11 +14,9 @@
     .divider-2 {
       order: 2;
     }
+
     .heading-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      order: 3; // Ensures it appears after page-split-container
+      order: 3;
     }
   }
 }
