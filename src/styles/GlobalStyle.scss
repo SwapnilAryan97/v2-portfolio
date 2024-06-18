@@ -16,7 +16,11 @@
   --dark-grey: #0f0f0f;
   --grey: #242424ac;
 
-  font-size: 18px;
+  font-size: 15px;
+
+  @media (min-width: 768px){
+    font-size: 18px;
+  }
 }
 
 .section-heading {
