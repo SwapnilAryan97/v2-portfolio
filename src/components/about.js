@@ -2,14 +2,15 @@ import "../styles/about.scss";
 import "lazysizes";
 import "lazysizes/plugins/parent-fit/ls.parent-fit"; // Optional plugin for better fitting
 import { Suspense } from "react";
+
 const About = () => {
   const profilePic = require("../assets/images/profile-pic.jpg");
-  // const LazyComponent = lazy(() => import("./LazyComponent"));
+  const wavingHandEmoji = "\u{1F44B}";
 
   return (
     <div className="page-container about-page">
       <span className="blur-background"></span>
-      <h2 className="section-heading">Hey!</h2>
+      <h2 className="section-heading">Hey! {wavingHandEmoji}</h2>
       <h2 className="section-heading">I'm Swapnil.</h2>
       <h3 className="section-subheading">
         I'm a Software Engineer who loves combining well-crafted code with
@@ -44,8 +45,8 @@ const About = () => {
             <span className="highlight"> When I'm not working,</span> you can
             often find me jamming to my favorite tunes, diving into the pool,
             gliding gracefully on the ice, or immersing myself in epic video
-            game adventures. I’m also a big fan of playing FIFA and table tennis, always
-            up for a friendly match!
+            game adventures. I’m also a big fan of playing FIFA and table
+            tennis, always up for a friendly match!
           </p>
         </div>
       </div>
