@@ -28,15 +28,26 @@ const About = () => {
             alt="Profile Pic"
           />
         </div>
-        <p>
-          I enjoy discovering innovative methods to develop seamless user
-          experiences using clean, efficient, and scalable code. I view work as
-          a continuous learning journey and am constantly seeking opportunities
-          to collaborate with individuals who are as eager to share their
-          knowledge as I am to learn. At the end of the day, my main objective
-          is to create something beautiful alongside people who inspire me to
-          excel.
-        </p>
+        <div>
+          <p>
+            I enjoy discovering innovative methods to develop seamless user
+            experiences using clean, efficient, and scalable code. I view work
+            as a continuous learning journey and am constantly seeking
+            opportunities to collaborate with individuals who are as eager to
+            share their knowledge as I am to learn.
+          </p>
+          <p>
+            At the end of the day, my main objective is to create something
+            beautiful alongside people who inspire me to excel.
+          </p>
+          <p>
+            <span className="highlight"> When I'm not working,</span> you can
+            often find me jamming to my favorite tunes, diving into the pool,
+            gliding gracefully on the ice, or immersing myself in epic video
+            game adventures. I’m also a big fan of playing FIFA and table tennis, always
+            up for a friendly match!
+          </p>
+        </div>
       </div>
     </div>
   );

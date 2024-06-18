@@ -1,4 +1,24 @@
 .sub-title {
-    margin-top: 15px;
-    margin-bottom: 5px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.skills-page {
+  background-color: var(--dark-grey);
+
+  @media (min-width: 760px) {
+    .page-split-container {
+      order: 1;
+    }
+
+    .divider-2 {
+      order: 2;
+    }
+    .heading-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      order: 3; // Ensures it appears after page-split-container
+    }
+  }
 }

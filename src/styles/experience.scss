@@ -2,7 +2,7 @@ ul {
   padding-left: 0px;
   margin-left: 0px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   padding-top: 0px;
   padding-bottom: 0px;
   padding-right: 0px;
@@ -19,9 +19,10 @@ ul {
 }
 
 .title {
-  color: var(--slate);
+  color: var(--white);
   font-weight: 700;
   font-size: 1.2em;
+  padding-bottom: 10px;
 }
 
 .date {
@@ -29,19 +30,19 @@ ul {
   margin-bottom: 5px;
   font-weight: 400;
   color: var(--light-slate);
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 
 .description {
   margin-top: 5px;
   font-size: 1em;
-//   font-weight: 400;
-    color: var(--lightest-slate);
+  //   font-weight: 400;
+  color: var(--lightest-slate);
 
   line-height: 1.5;
 }
 
-
-.experience-page {
-  background-color: var(--dark-grey);
+.content-wrapper {
+  display: flex;
+  flex-direction: column-reverse; // or column-reverse
 }

@@ -16,12 +16,14 @@
 .intro-page {
   // background-color: white;
   // position: relative;
-  background-color: white;
-  background-image: url(../assets/images/boat-in-sea.jpg);
+  // background-color: white;
+  // background-image: url(../assets/images/boat-in-sea.jpg);
+  background-image: url(../assets/images/green-aurora.png);
   background-size: cover;
   z-index: -10;
   backdrop-filter: blur(10px); /* Apply blur */
-  opacity: 0.9;
+  // opacity: 0.9;
+  height: 500px;
 
   // &::after {
   //   position: relative;

@@ -1,5 +1,4 @@
 :root {
-  // --green: #64ffda;
   --green: #19fbc6;
   --light-green: #b6f9e9dd;
   --lightest-navy: #172a45;
@@ -8,15 +7,28 @@
   --slate: #8892b0;
   --light-slate: #a8b2d1;
   --lightest-slate: #ccd6f6;
-  --white: #e6f1ff;
   --pink: #ff2e63;
   --blue: #286ff2;
   --light-blue: #c3e88d;
   --lightest-blue: #f1f8f5;
-  --dark: #000;
-  --light: #fff;
-  --dark-grey: #32313148;
+  --black: #000;
+  --white: #ffffff;
+  --dark-grey: #0f0f0f;
   --grey: #242424ac;
+
+  font-size: 18px;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  color: var(--green);
+  padding-right: 30px;
+}
+
+.section-subheading {
+  color: var(--light-slate);
+  font-weight: 400;
+  margin-top: 10px;
 }
 
 .divider {
@@ -24,6 +36,14 @@
   margin: 20px 0px;
   width: 120px;
   height: 2px;
+  background-color: var(--green);
+}
+
+.divider-2 {
+  display: block;
+  margin: 0px 40px 0px 40px;
+  height: auto;
+  width: 2px;
   background-color: var(--green);
 }
 
@@ -81,5 +101,35 @@ ul {
   border-width: 1px;
   background-color: var(--grey);
   color: var(--green);
-  font-size: 0.9em;
+  font-size: 0.8em;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+
+  @media (min-width: 760px) {
+    flex-direction: row;
+    justify-content: space-between;
+
+    .heading-container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 400px;
+    }
+
+    .page-split-container {
+      margin-left: 60px;
+      margin-top: auto;
+      margin-right: auto;
+      max-width: 650px;
+    }
+
+    .divider {
+      display: none;
+    }
+  }
 }
