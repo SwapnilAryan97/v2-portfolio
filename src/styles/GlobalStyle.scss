@@ -18,7 +18,7 @@
 
   font-size: 15px;
 
-  @media (min-width: 768px){
+  @media (min-width: 768px) {
     font-size: 18px;
   }
 }
@@ -120,16 +120,16 @@ ul {
   justify-content: space-between;
   display: flex;
 
-  @media (min-width: 760px) {
+  @media (min-width: 768px) {
     flex-direction: row;
     justify-content: space-between;
 
     .heading-container {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      width: 450px;
+      justify-content: center; // Centers content horizontally
+      align-items: flex-start; // Aligns content to start from the top
+      flex-direction: column; // Stacks content vertically
+      margin: 0 auto; // Centers the container itself
     }
 
     .page-split-container {

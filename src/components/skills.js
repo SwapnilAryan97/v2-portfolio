@@ -19,7 +19,7 @@ const Skills = () => {
 
   return (
     <div className="page-container skills-page">
-      <div className="content-wrapper reverse">
+      <div className="content-wrapper">
         <div className="heading-container">
           <h2 className="section-heading">Skills</h2>
           <span className="divider"></span>

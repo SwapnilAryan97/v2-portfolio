@@ -26,7 +26,7 @@ ul {
 }
 
 .date {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 5px;
   font-weight: 400;
   color: var(--light-slate);
@@ -35,14 +35,10 @@ ul {
 
 .description {
   margin-top: 5px;
+  margin-bottom: 40px;
   font-size: 1em;
   //   font-weight: 400;
   color: var(--lightest-slate);
 
   line-height: 1.5;
-}
-
-.content-wrapper {
-  display: flex;
-  flex-direction: column-reverse; // or column-reverse
 }

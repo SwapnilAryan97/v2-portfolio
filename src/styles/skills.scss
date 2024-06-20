@@ -6,8 +6,9 @@
 .skills-page {
   // background-color: var(--dark-grey);
 
-  @media (min-width: 760px) {
+  @media (min-width: 768px) {
     .page-split-container {
+      margin-right: -50px;
       order: 1;
     }
 
