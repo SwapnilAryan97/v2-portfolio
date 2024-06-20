@@ -6,9 +6,12 @@ const Contact = () => {
       <div className="content-wrapper">
         <div className="heading-container container-size">
           <h1 className="section-heading">Let's Connect!</h1>
+          <span className="divider"></span>
           <h2>{/* <span className="">Contact</span> */}</h2>
           <p className="contact-para">
             Feel free to use this form to get in touch with me for any reason.
+            <br />
+            <br />
             I’m open to new opportunities, freelance projects, adorable cat
             videos, or just a friendly hello!
           </p>
