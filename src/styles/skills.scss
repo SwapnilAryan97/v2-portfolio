@@ -1,10 +1,14 @@
 .sub-title {
   margin-top: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .skills-page {
   // background-color: var(--dark-grey);
+  ul {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
 
   @media (min-width: 768px) {
     .page-split-container {
