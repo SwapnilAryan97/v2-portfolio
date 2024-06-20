@@ -26,7 +26,9 @@ jobs:
       - run: npm run build --if-present
       - run: npm test
         env:
-          EMAILJS_PUBLIC_KEY: ${{ secrets.EMAIL_TOKEN }}
+          EMAILJS_PUBLIC_KEY: ${{ secrets.EMAILJS_PUBLIC_KEY }}
+          EMAILJS_USER_ID: ${{ secrets.EMAILJS_SERVICE_ID }}
+          EMAILJS_TEMPLATE_ID: ${{ secrets.EMAILJS_TEMPLATE_ID }}
 
   build-container:
     runs-on: ubuntu-latest
