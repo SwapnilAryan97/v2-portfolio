@@ -2,14 +2,32 @@
   width: 100%;
   max-width: 600px;
   margin-top: 15px;
-  padding-top: 30px;
   margin-bottom: 15px;
+  margin-right: auto;
+  margin-left: 10px;
+  padding-top: 30px;
   padding-bottom: 10px;
+  border-radius: 20px;
+  background-color: var(--grey);
+
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-left: 0;
+  }
+
+  .contact-form-title {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
 
   ul {
     margin-right: auto;
     margin-left: auto;
-    max-width: 400px;
+    width: 500px;
+    max-width: 80%;
     justify-content: center;
     align-items: center;
 
@@ -35,28 +53,41 @@
         vertical-align: top;
         width: 100%;
         padding: 10px;
-        background-color: var(--grey);
-        // border: 1px solid var(--green);
-        border: none;
+        background-color: var(--black);
+        border: 1px solid var(--black);
         border-radius: 10px;
         color: var(--lightest-slate);
+
+        &:focus,
+        &:hover {
+          border: 1px solid var(--green);
+        }
       }
 
       .message-box {
         display: flex;
         align-items: flex-start; /* Aligns items at the top */
+        height: 50px;
       }
 
       .flat-button {
         width: 40%;
         justify-content: center;
         align-items: center;
-        padding: 10px;
-        background-color: var(--blue);
+        // color: var(--black);
+        // background-color: var(--white);
+        color: var(--white);
+        background-color: var(--black);
+        border: 1px solid var(--white);
         font-size: 1.2em;
-        color: var(--dark);
-        border: none;
         cursor: pointer;
+        padding: 10px;
+        margin-top: 15px;
+
+        &:hover {
+          background-color: var(--black);
+          color: var(--green);
+        }
       }
     }
   }
@@ -67,6 +98,7 @@
     justify-content: center;
     align-items: center;
     justify-items: center;
+    margin-right: 30px;
   }
 }
 
