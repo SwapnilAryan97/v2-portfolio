@@ -8,12 +8,13 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    // Need backend to hide the emailjs service id and template id
     emailjs
       .sendForm(
-        process.env.EMAILJS_SERVICE_ID,
-        process.env.EMAILJS_TEMPLATE_ID,
+        "iswapnilaryan",
+        "template_e1bsh0p",
         form.current,
-        process.env.EMAILJS_PUBLIC_KEY
+        "mSi8ONmpqGhOfSrq6"
       )
       .then(
         () => {
