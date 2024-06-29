@@ -27,7 +27,7 @@ const Contact = () => {
       );
   };
   return (
-    <div className="page-container contact-page">
+    <div className="page-container contact-page" id="contact">
       <form ref={form} onSubmit={sendEmail} className="content-wrapper">
         <div className="heading-container container-size">
           <h1 className="section-heading">Let's Connect!</h1>

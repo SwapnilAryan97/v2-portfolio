@@ -4,14 +4,14 @@ import Intro from "./intro";
 import Skills from "./skills";
 import Experience from "./experience";
 import Contact from "./contact";
-// import Navbar from "./navbar";
+import Navbar from "./navbar";
 
 import "../styles/GlobalStyle.scss";
 
 const Layout = () => {
   return (
     <div>
-      {/* <Navbar/> */}
+      <Navbar/>
       <Intro />
       <About />
       <Experience />

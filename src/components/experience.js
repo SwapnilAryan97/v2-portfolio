@@ -17,7 +17,7 @@ const Experience = () => {
   }, []);
 
   return (
-    <div className="page-container experience-page">
+    <div className="page-container experience-page" id="experience">
       <div className="content-wrapper">
         <div className="heading-container">
           <h1 className="section-heading">Experience</h1>

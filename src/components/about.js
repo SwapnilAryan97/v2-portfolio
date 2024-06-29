@@ -8,7 +8,7 @@ const About = () => {
   const wavingHandEmoji = "\u{1F44B}";
 
   return (
-    <div className="page-container about-page">
+    <div className="page-container about-page" id="about">
       <span className="blur-background"></span>
       <h2 className="section-heading">Hey! {wavingHandEmoji}</h2>
       <h2 className="section-heading">I'm Swapnil.</h2>

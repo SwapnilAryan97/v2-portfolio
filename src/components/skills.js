@@ -18,7 +18,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="page-container skills-page">
+    <div className="page-container skills-page" id="skills">
       <div className="content-wrapper">
         <div className="heading-container">
           <h2 className="section-heading">Skills</h2>
